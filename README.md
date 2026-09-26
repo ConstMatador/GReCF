@@ -1,5 +1,7 @@
 # GReCF
 
+![Figure](overview.png)
+
 Anonymous implementation of **Generative Recommendation via Continuous-Space
 Collaborative Filtering**.
 

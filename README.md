@@ -14,7 +14,6 @@ content aligned with users' historical preferences while reliably
 extrapolating beyond observed history. We formulate this task as collaborative
 preference-field completion in continuous item space, with user-based and
 item-based collaborative filtering providing two completion mechanisms.
-
 We instantiate this formulation in GReCF, a reference-free generative
 recommender in the image modality. GReCF represents users with adaptive
 multi-interest themes, anchors each generation to one theme, and injects user
@@ -22,7 +21,6 @@ and theme conditions into a pretrained diffusion model through residual
 preference attention. Shared training transfers evidence across users, while
 masked-interest training learns relations among co-occurring themes to support
 extrapolation beyond observed history.
-
 We further introduce an extrapolation-focused evaluation protocol covering
 full-pool ranking, personalization, image quality, multi-interest coverage, and
 preference-source attribution. The evaluation demonstrates competitive
